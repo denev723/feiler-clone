@@ -12,9 +12,11 @@
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://www.feiler.de/" />
     <!-- Vendor Styles -->
-    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./js/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.min.css" />
     <!-- App Styles -->
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -31,7 +33,7 @@
                     <div class="form-controls">
                       <select class="select" name="language" id="language">
                         <option value="de">deutsch</option>
-                        <option value="en" selected="selected">englisch</option>
+                        <option value="ko" selected="selected">korean</option>
                       </select>
                     </div>
                     <!-- /.form-controls -->
@@ -53,15 +55,18 @@
           </div>
           <!-- /.language -->
           <div class="search desktoponly">
-            <a href="https://shop.feiler.de/" title="Onlineshop" target="_blank"
+            <a
+              href="https://designnlife.com/"
+              title="Onlineshop"
+              target="_blank"
               ><i class="ico-shop-head"></i
             ></a>
           </div>
           <!-- /.search -->
           <div class="logo">
-            <a href="/en/home.html" title="Ernst Feiler GmbH">
+            <a href="./index.html" title="Ernst Feiler GmbH">
               <img
-                src="/images/logo.png"
+                src="./images/logo.png"
                 srcset="/images/logo.png 200w, /images/logo-small.png 120w"
                 sizes="(max-width: 1239px) 120px, 200px"
                 alt="Ernst Feiler GmbH"
@@ -75,48 +80,34 @@
       <!-- /.header -->
       <nav class="main-nav">
         <ul>
-          <li>
-            <a href="/en/home.html" title="Home"><i class="ico-home"></i></a>
-          </li>
           <li class="current">
-            <a href="/en/kollektion.html" title="Collection">Collection</a>
+            <a href="./index.html" title="Home"><i class="ico-home"></i></a>
           </li>
           <li>
-            <a href="/en/philosophie.html" title="Philosophy">Philosophy</a>
+            <a href="./collection.html" title="Collection">컬렉션</a>
           </li>
-          <li><a href="/en/historie.html" title="History">History</a></li>
-          <li><a href="/en/store.html" title="Store">Store</a></li>
-          <li><a href="/en/outlet.html" title="Outlet">Outlet</a></li>
           <li>
-            <a href="/en/premiumpartner.html" title="Premiumpartner"
-              >Premiumpartner</a
-            >
+            <a href="./philosophy.html" title="Philosophy">철학</a>
           </li>
-          <li><a href="/en/kontakt.html" title="Contact">Contact</a></li>
+          <li><a href="./history.html" title="History">역사</a></li>
+          <li><a href="./contact.html" title="Contact">컨텍트</a></li>
         </ul>
       </nav>
       <!-- /.main-nav -->
       <nav class="mobile-nav">
         <ul>
-          <li><a href="/en/home.html" title="Home">Home</a></li>
+          <li><a href="./index.html" title="Home">홈</a></li>
           <li>
-            <a href="/en/kollektion.html" title="Collection">Collection</a>
+            <a href="./collection.html" title="Collection">컬렉션</a>
           </li>
           <li>
-            <a href="/en/philosophie.html" title="Philosophy">Philosophy</a>
+            <a href="./philosophy.html" title="Philosophy">철학</a>
           </li>
-          <li><a href="/en/historie.html" title="History">History</a></li>
-          <li><a href="/en/store.html" title="Store">Store</a></li>
-          <li><a href="/en/outlet.html" title="Outlet">Outlet</a></li>
-          <li><a href="/en/kontakt.html" title="Contact">Contact</a></li>
+          <li><a href="./history.html" title="History">역사</a></li>
+          <li><a href="./contact.html" title="Contact">컨텍트</a></li>
           <li>
-            <a href="/en/premiumpartner.html" title="Premiumpartner"
-              >Premiumpartner</a
-            >
-          </li>
-          <li>
-            <a href="http://shop.feiler.de/" target="_blank" title="Network"
-              >Shop</a
+            <a href="https://designnlife.com/" target="_blank" title="Network"
+              >온라인샵</a
             >
           </li>
           <li>
@@ -124,12 +115,12 @@
               href="https://www.yumpu.com/en/user/feiler"
               target="_blank"
               title="Network"
-              >Catalogs</a
+              >카탈로그</a
             >
           </li>
           <li>
             <a href="http://www.feiler-blog.de/" target="_blank" title="Network"
-              >Blog</a
+              >블로그</a
             >
           </li>
           <li>
@@ -137,15 +128,15 @@
               href="https://www.facebook.com/feiler.de/"
               target="_blank"
               title="Network"
-              >Facebook</a
+              >페이스북</a
             >
           </li>
           <li>
             <a
-              href="https://www.instagram.com/feiler_germany/"
+              href="https://www.instagram.com/feiler_korea/ "
               target="_blank"
               title="Network"
-              >Instagram</a
+              >인스타그램</a
             >
           </li>
           <li>
@@ -153,45 +144,24 @@
               href="https://www.youtube.com/user/ErnstFeilerGmbH/"
               target="_blank"
               title="Network"
-              >YouTube</a
+              >유튜브</a
             >
-          </li>
-          <li>
-            <a
-              href="https://www.feiler-mediathek.de/"
-              target="_blank"
-              title="Network"
-              >Mediathek</a
-            >
-          </li>
-          <li>
-            <a href="http://www.feiler-jp.com" target="_blank" title="Network"
-              >Feiler Japan</a
-            >
-          </li>
-          <li>
-            <a href="https://www.feiler.ru/" target="_blank" title="Network"
-              >Feiler Russia</a
-            >
-          </li>
-          <li>
-            <a href="/en/kleingedrucktes/t-cs,5/" title="Conditions">T&Cs</a>
           </li>
           <li>
             <a href="/en/kleingedrucktes/privacy-policy,6/" title="Conditions"
-              >Privacy policy</a
+              >개인정보보호정책</a
             >
           </li>
           <li>
             <a
               href="/en/kleingedrucktes/privacy-policy-social-media,10/"
               title="Conditions"
-              >Privacy policy social media</a
+              >개인정보보호정책 소셜미디어</a
             >
           </li>
           <li>
             <a href="/en/kleingedrucktes/legal-notice,7/" title="Conditions"
-              >Legal notice</a
+              >법률통지서</a
             >
           </li>
         </ul>
@@ -199,111 +169,71 @@
       <!-- /.mobile-nav -->
       <nav class="language-nav">
         <ul>
-          <li><a href="#">deutsch</a></li>
-          <li><a href="#">englisch</a></li>
-          <li><a href="#">russisch</a></li>
+          <li><a href="https://www.feiler.de/">독일어</a></li>
+          <li><a href="./index.html">한국어</a></li>
         </ul>
       </nav>
       <!-- /.language-nav -->
-      <div class="content kollektion">
+      <div class="teaser">
+        <div class="slider">
+          <div class="slide">
+            <img
+              src="./images/visual.png"
+              alt="visual.png"
+              title='Bei einer Bestellung ab 29,90 € legen wir Ihnen eine "BABOR Gentle Cleansing Milk" bei'
+            />
+          </div>
+          <!-- /.slide -->
+          <div class="slide">
+            <img
+              src="./images/visual2.png"
+              alt="visual2"
+              title="Stefanie Graf by FEILER"
+            />
+          </div>
+          <!-- /.slide -->
+        </div>
+        <!-- /.slick-slider -->
+      </div>
+      <!-- /.teaser -->
+      <div class="content home">
         <div class="row">
           <div class="shell">
             <div class="col col-4of4">
               <article>
                 <div class="headline">
                   <div class="first-head">
-                    <h1><span>Collection</span></h1>
+                    <h1>
+                      <span>FEILER의 럭셔리 욕조 직물 및 액세서리</span>
+                    </h1>
                   </div>
                   <div class="second-head">
                     <h2>
-                      <span
-                        >Luxury in chenille and terry for bath and living</span
-                      >
+                      <span>
+                        Ernst Feiler GmbH는 진정한 패턴의 셔닐과 셔닐 테두리가
+                        있는 고급 테리의 세계적인 선두 제조업체로 유명합니다.
+                      </span>
                     </h2>
                   </div>
                 </div>
                 <!-- /.headline -->
+                <p>
+                  오랜 경험과 노하우를 바탕으로 가볍고 부드러운 촉감과 최고의
+                  품질을 자랑하는 목욕 및 생활용 체닐 제품을 생산하고 있습니다.
+                  당사의 제품이 귀하의 피부에 직접 접촉하기 때문에, 우리는
+                  신뢰할 수 있는 공급업체로부터 OEKO-TEX® Standard 100에 따라
+                  인증된 최고급 처리 면실만 구입하도록 보장합니다. FEILER 제품은
+                  피부에 부드럽고 친절하며 지속적인 품질 관리를 받습니다.
+                </p>
+                <div class="video-container">
+                  <iframe
+                    src="https://www.youtube-nocookie.com/embed/rW_2tfgah7s?rel=0&start=0&controls=0&autoplay=0&loop=1&showinfo=0"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </article>
-            </div>
-            <!-- /.col -->
-          </div>
-          <!-- /.shell -->
-        </div>
-        <!-- /.row -->
-        <div class="row white">
-          <div class="shell">
-            <div class="col col-4of4">
-              <div class="tiles large">
-                <div class="big-tile">
-                  <div class="tile-content">
-                    <a
-                      href="/en/kollektion/chenille,5/"
-                      title="to the collection"
-                      ><img
-                        src="/images/kollektion/thumb1/chenille-235-1.jpg"
-                        alt="chenille-235-1.jpg"
-                        title="Chenille"
-                    /></a>
-                  </div>
-                  <!-- /.tile-content -->
-                  <article>
-                    <div class="headline">
-                      <div class="first-head">
-                        <h3><span>Chenille</span></h3>
-                      </div>
-                      <div class="second-head">
-                        <h4><span>Gentle luxury for every day</span></h4>
-                      </div>
-                    </div>
-                    <!-- /.headline -->
-                    <div class="button">
-                      <a
-                        href="/en/kollektion/chenille,5/"
-                        class="btn"
-                        title="to the collection"
-                        >to the collection
-                      </a>
-                    </div>
-                    <!-- /.button -->
-                  </article>
-                </div>
-                <!-- /.big-tile -->
-                <div class="big-tile">
-                  <div class="tile-content">
-                    <a href="/en/kollektion/terry,6/" title="to the collection"
-                      ><img
-                        src="/images/kollektion/thumb1/terry-87-1.jpg"
-                        alt="terry-87-1.jpg"
-                        title="Terry"
-                    /></a>
-                  </div>
-                  <!-- /.tile-content -->
-                  <article>
-                    <div class="headline">
-                      <div class="first-head">
-                        <h3><span>Terry</span></h3>
-                      </div>
-                      <div class="second-head">
-                        <h4>
-                          <span>A "happy liaison" with chenille borders</span>
-                        </h4>
-                      </div>
-                    </div>
-                    <!-- /.headline -->
-                    <div class="button">
-                      <a
-                        href="/en/kollektion/terry,6/"
-                        class="btn"
-                        title="to the collection"
-                        >to the collection
-                      </a>
-                    </div>
-                    <!-- /.button -->
-                  </article>
-                </div>
-                <!-- /.big-tile -->
-              </div>
-              <!-- /.tiles -->
             </div>
             <!-- /.col -->
           </div>
@@ -314,8 +244,8 @@
           <div class="shell">
             <div class="col col-2of4">
               <img
-                src="/images/kollektion/thumb1/passion-296-1.jpg"
-                alt="passion-296-1.jpg"
+                src="./images/passion-27-1.jpeg"
+                alt="passion-27-1.jpg"
                 title="Passion"
               />
             </div>
@@ -327,22 +257,19 @@
                     <h3><span>Passion</span></h3>
                   </div>
                   <div class="second-head">
-                    <h4><span>An all-embracing passion</span></h4>
+                    <h4><span>만능의 열정</span></h4>
                   </div>
                 </div>
                 <!-- /.headline -->
                 <p>
-                  The FEILER PASSION collections bear all the hallmarks of our
-                  top designers. Divided into three categories – Flora, Fauna
-                  and Flair – these opulent, enchanting designs were created
-                  exclusively for our genuine FEILER chenille.
+                  FEILER PASSION 컬렉션에는 최고 디자이너들의 특징이 모두 담겨
+                  있습니다. Flora, Fauna 및 Flair의 세 가지 범주로 구분되는 이
+                  화려하고 매혹적인 디자인은 당사의 정품 FEILER Chenille만을
+                  위해 만들어졌습니다.
                 </p>
                 <div class="button">
-                  <a
-                    href="/en/kollektion/passion,7/"
-                    class="btn"
-                    title="to the collection"
-                    >to the collection
+                  <a href="./passion.html" class="btn" title="To the collection"
+                    >To the collection
                   </a>
                 </div>
                 <!-- /.button -->
@@ -362,22 +289,19 @@
                     <h3><span>Pure</span></h3>
                   </div>
                   <div class="second-head">
-                    <h4><span>The lightness of being</span></h4>
+                    <h4><span>존재의 가벼움</span></h4>
                   </div>
                 </div>
                 <!-- /.headline -->
                 <p>
-                  The FEILER PURE collections set new standards in design,
-                  marking the dawn of an era of fresh and clean creations.
-                  Classically unpretentious, classically modern and purely
-                  understated: FEILER PURE.
+                  FEILER PURE 컬렉션은 신선하고 깨끗한 창작의 시대의 여명을
+                  기념하며 디자인에 새로운 기준을 세웠습니다. 고전적으로
+                  꾸밈없고, 고전적으로 현대적이며 순수하게 절제되어 있는: FEILER
+                  PURE.
                 </p>
                 <div class="button">
-                  <a
-                    href="/en/kollektion/pure,8/"
-                    class="btn"
-                    title="to the collection"
-                    >to the collection
+                  <a href="./pure.html" class="btn" title="To the collection"
+                    >To the collection
                   </a>
                 </div>
                 <!-- /.button -->
@@ -386,8 +310,8 @@
             <!-- /.col -->
             <div class="col col-2of4">
               <img
-                src="/images/kollektion/thumb1/pure-297-1.jpg"
-                alt="pure-297-1.jpg"
+                src="/images/pure-28-1.jpeg"
+                alt="pure-28-1.jpg"
                 title="Pure"
               />
             </div>
@@ -396,38 +320,115 @@
           <!-- /.shell -->
         </div>
         <!-- /.row -->
+        <div class="row">
+          <div class="shell">
+            <div class="col col-1of3">
+              <div class="feature">
+                <a href="https://designnlife.com/" target="_blank" title="Shop">
+                  <div class="feature-image">
+                    <img
+                      src="/images/shop-11-1.jpeg"
+                      alt="shop-11-1.jpg"
+                      title="Shop"
+                    />
+                  </div>
+                  <!-- feature-image -->
+                  <div class="feature-headline">
+                    <h3><span>Shop</span></h3>
+                  </div>
+                  <!-- /.feature-headline -->
+                  <div class="feature-content">
+                    <span>
+                      우리 온라인 스토어는 집에서 편리하게 주문할 수 있도록 항상
+                      열려 있습니다!
+                    </span>
+                  </div>
+                  <!-- feature-content --></a
+                >
+              </div>
+              <!-- /.feature -->
+            </div>
+            <!-- /.col -->
+            <div class="col col-1of3">
+              <div class="feature">
+                <a
+                  href="https://www.yumpu.com/user/feiler/"
+                  target="_blank"
+                  title="Kataloge"
+                >
+                  <div class="feature-image">
+                    <img
+                      src="/images/kataloge-12-1.jpeg"
+                      alt="kataloge-12-1.jpg"
+                      title="Kataloge"
+                    />
+                  </div>
+                  <!-- feature-image -->
+                  <div class="feature-headline">
+                    <h3><span>Kataloge</span></h3>
+                  </div>
+                  <!-- /.feature-headline -->
+                  <div class="feature-content">
+                    <span>
+                      온라인으로 카탈로그를 찾아보거나 PC에서 파일을
+                      다운로드합니다.
+                    </span>
+                  </div>
+                  <!-- feature-content --></a
+                >
+              </div>
+              <!-- /.feature -->
+            </div>
+            <!-- /.col -->
+            <div class="col col-1of3">
+              <div class="feature">
+                <a href="#" target="_blank" title="Blog">
+                  <div class="feature-image">
+                    <img
+                      src="/images/blog-26-1.jpeg"
+                      alt="blog-26-1.jpg"
+                      title="Blog"
+                    />
+                  </div>
+                  <!-- feature-image -->
+                  <div class="feature-headline">
+                    <h3><span>Blog</span></h3>
+                  </div>
+                  <!-- /.feature-headline -->
+                  <div class="feature-content">
+                    <span>
+                      FEILER 블로그에서 우리 제품에 대한 더 많은 매력적인
+                      기능들을 찾을 수 있습니다.
+                    </span>
+                  </div>
+                  <!-- feature-content --></a
+                >
+              </div>
+              <!-- /.feature -->
+            </div>
+            <!-- /.col -->
+          </div>
+          <!-- /.shell -->
+        </div>
+        <!-- /.row -->
       </div>
       <!-- /.content -->
-
       <footer>
         <div class="row">
           <div class="shell">
             <div class="col col-1of4">
               <div class="sitemap">
-                <div class="sitemap-head">Company</div>
+                <div class="sitemap-head">회사</div>
                 <!-- /.sitemap-head -->
                 <ul>
                   <li>
-                    <a href="/en/philosophie.html" title="Philosophy"
-                      >Philosophy</a
-                    >
+                    <a href="./philosophy.html" title="Philosophy">철학</a>
                   </li>
                   <li>
-                    <a href="/en/historie.html" title="History">History</a>
+                    <a href="./history.html" title="History">역사</a>
                   </li>
                   <li>
-                    <a href="/en/store.html" title="Store">Store</a>
-                  </li>
-                  <li>
-                    <a href="/en/outlet.html" title="Outlet">Outlet</a>
-                  </li>
-                  <li>
-                    <a href="/en/premiumpartner.html" title="Premiumpartner"
-                      >Premiumpartner</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/en/kontakt.html" title="Contact">Contact</a>
+                    <a href="./contact.html" title="Contact">컨텍트</a>
                   </li>
                 </ul>
               </div>
@@ -436,24 +437,20 @@
             <!-- /.col -->
             <div class="col col-1of4">
               <div class="sitemap">
-                <div class="sitemap-head">Collection</div>
+                <div class="sitemap-head">컬렉션</div>
                 <!-- /.sitemap-head -->
                 <ul>
                   <li>
-                    <a href="/en/kollektion/chenille,5/" title="Chenille"
-                      >Chenille</a
-                    >
+                    <a href="./chenille.html" title="Chenille">Chenille</a>
                   </li>
                   <li>
-                    <a href="/en/kollektion/terry,6/" title="Terry">Terry</a>
+                    <a href="./terry.html" title="Terry">Terry</a>
                   </li>
                   <li>
-                    <a href="/en/kollektion/passion,7/" title="Passion"
-                      >Passion</a
-                    >
+                    <a href="./passion.html" title="Passion">Passion</a>
                   </li>
                   <li>
-                    <a href="/en/kollektion/pure,8/" title="Pure">Pure</a>
+                    <a href="./pure.html" title="Pure">Pure</a>
                   </li>
                 </ul>
               </div>
@@ -462,15 +459,15 @@
             <!-- /.col -->
             <div class="col col-1of4">
               <div class="sitemap">
-                <div class="sitemap-head">Network</div>
+                <div class="sitemap-head">네트워크</div>
                 <!-- /.sitemap-head -->
                 <ul>
                   <li>
                     <a
-                      href="http://shop.feiler.de/"
+                      href="https://designnlife.com/"
                       target="_blank"
                       title="Shop"
-                      ><i class="ico-shop"></i>Shop</a
+                      ><i class="ico-shop"></i>온라인스토어</a
                     >
                   </li>
                   <li>
@@ -478,7 +475,7 @@
                       href="https://www.yumpu.com/en/user/feiler"
                       target="_blank"
                       title="Catalogs"
-                      ><i class="ico-catalog"></i>Catalogs</a
+                      ><i class="ico-catalog"></i>카탈로그</a
                     >
                   </li>
                   <li>
@@ -486,7 +483,7 @@
                       href="http://www.feiler-blog.de/"
                       target="_blank"
                       title="Blog"
-                      ><i class="ico-blog"></i>Blog</a
+                      ><i class="ico-blog"></i>블로그</a
                     >
                   </li>
                   <li>
@@ -494,15 +491,15 @@
                       href="https://www.facebook.com/feiler.de/"
                       target="_blank"
                       title="Facebook"
-                      ><i class="ico-facebook"></i>Facebook</a
+                      ><i class="ico-facebook"></i>페이스북</a
                     >
                   </li>
                   <li>
                     <a
-                      href="https://www.instagram.com/feiler_germany/"
+                      href="https://www.instagram.com/feiler_korea/"
                       target="_blank"
                       title="Instagram"
-                      ><i class="ico-instagram"></i>Instagram</a
+                      ><i class="ico-instagram"></i>인스타그램</a
                     >
                   </li>
                   <li>
@@ -510,31 +507,7 @@
                       href="https://www.youtube.com/user/ErnstFeilerGmbH/"
                       target="_blank"
                       title="YouTube"
-                      ><i class="ico-youtube"></i>YouTube</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.feiler-mediathek.de/"
-                      target="_blank"
-                      title="Mediathek"
-                      ><i class="ico-media"></i>Mediathek</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="http://www.feiler-jp.com"
-                      target="_blank"
-                      title="Feiler Japan"
-                      ><i class="ico-network"></i>Feiler Japan</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.feiler.ru/"
-                      target="_blank"
-                      title="Feiler Russia"
-                      ><i class="ico-network"></i>Feiler Russia</a
+                      ><i class="ico-youtube"></i>유튜브</a
                     >
                   </li>
                 </ul>
@@ -544,32 +517,19 @@
             <!-- /.col -->
             <div class="col col-1of4">
               <div class="sitemap">
-                <div class="sitemap-head">Conditions</div>
+                <div class="sitemap-head">형세</div>
                 <!-- /.sitemap-head -->
                 <ul>
                   <li>
-                    <a href="/en/kleingedrucktes/t-cs,5/" title="T&Cs">T&Cs</a>
+                    <a href="#" title="Privacy policy">개인정보보호정책</a>
                   </li>
                   <li>
-                    <a
-                      href="/en/kleingedrucktes/privacy-policy,6/"
-                      title="Privacy policy"
-                      >Privacy policy</a
+                    <a href="#" title="Privacy policy social media"
+                      >개인정보보호정책 소셜미디어</a
                     >
                   </li>
                   <li>
-                    <a
-                      href="/en/kleingedrucktes/privacy-policy-social-media,10/"
-                      title="Privacy policy social media"
-                      >Privacy policy social media</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/en/kleingedrucktes/legal-notice,7/"
-                      title="Legal notice"
-                      >Legal notice</a
-                    >
+                    <a href="#" title="Legal notice">법률고지</a>
                   </li>
                 </ul>
               </div>
@@ -587,5 +547,15 @@
       </footer>
     </div>
     <!-- /.wrapper -->
+    <!-- Vendor JS -->
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.easing.1.3.js"></script>
+    <script src="./js/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/jquery-ui-i18n.min.js"></script>
+
+    <!-- App JS -->
+    <script src="./js/functions.js"></script>
   </body>
 </html>
