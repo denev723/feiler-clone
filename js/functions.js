@@ -70,8 +70,10 @@
     });
 
     $("#language").change(function () {
+      console.log($(this).val());
       if ($(this).val() === "de") {
-        location.href = "https://www.feiler.de/";
+        // location.href = "https://www.feiler.de/";
+        window.open("https://www.feiler.de/");
       }
       // $("#language_form").submit();
     });
