@@ -14,7 +14,11 @@
     <!--FAVICON-->
 
     <!-- Vendor Styles -->
-    <link rel="stylesheet" href="./css/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="stylesheet" href="./js/fancybox/jquery.fancybox.css" />
     <link rel="stylesheet" href="./css/jquery-ui.min.css" />
 
@@ -83,7 +87,7 @@
       <!-- /.header -->
       <nav class="main-nav">
         <ul>
-          <li>
+          <li class="current">
             <a href="./index.html" title="Home"><i class="ico-home"></i></a>
           </li>
           <li>
@@ -93,9 +97,8 @@
             <a href="./philosophy.html" title="Philosophy">Philosophy</a>
           </li>
           <li><a href="./history.html" title="History">History</a></li>
-          <li class="current">
-            <a href="./contact.html" title="Contact">Contact</a>
-          </li>
+          <li><a href="./store.html" title="Store">Store</a></li>
+          <li><a href="./contact.html" title="Contact">Contact</a></li>
         </ul>
       </nav>
       <!-- /.main-nav -->
@@ -109,6 +112,7 @@
             <a href="./philosophy.html" title="Philosophy">Philosophy</a>
           </li>
           <li><a href="./history.html" title="History">History</a></li>
+          <li><a href="./store.html" title="Store">Store</a></li>
           <li><a href="./contact.html" title="Contact">Contact</a></li>
           <li>
             <a
@@ -157,7 +161,7 @@
             <a href="#" title="Conditions">Privacy policy social media</a>
           </li>
           <li>
-            <a href="#" title="Conditions">Legal notice</a>
+            <a href="#" title="Conditions">Legal Notice</a>
           </li>
         </ul>
       </nav>
@@ -178,12 +182,227 @@
           />
         </div>
         <!-- /.intro -->
-        <img
-          src="./images/preparing-page.png"
-          width="100%"
-          height="100%"
-          alt="preparing page"
-        />
+        <div class="row">
+          <div class="shell">
+            <div class="col col-3of4">
+              <article class="white">
+                <div class="headline">
+                  <div class="first-head">
+                    <h1><span>Contact</span></h1>
+                  </div>
+                  <div class="second-head">
+                    <h2>
+                      <span
+                        >궁금하신 어떤 것이라도 문의 남겨주세요.<br />
+                        신속하게 답변 드리겠습니다.</span
+                      >
+                    </h2>
+                  </div>
+                </div>
+                <!-- /.headline -->
+                <p>별표(*)로 표시된 항목은 모두 입력하여주시기 바랍니다.</p>
+              </article>
+              <section class="form white">
+                <form action="/en/kontakt.html" method="post">
+                  <input type="hidden" name="update" value="1" />
+                  <input type="hidden" name="form_time" value="1636953986" />
+                  <div class="form-row">
+                    <label for="vorname" class="form-label">* 이름</label>
+                    <div class="form-cols">
+                      <div class="form-col form-full">
+                        <div class="form-controls">
+                          <input
+                            type="text"
+                            class="field"
+                            name="vorname"
+                            id="vorname"
+                            required="required"
+                            value=""
+                          />
+                        </div>
+                        <!-- /.form-controls -->
+                      </div>
+                      <!-- /.form-col -->
+                    </div>
+                    <!-- /.form-cols -->
+                  </div>
+                  <!-- /.form-row -->
+
+                  <div class="form-spacer"></div>
+
+                  <div class="form-row">
+                    <label for="firma" class="form-label">회사명</label>
+                    <div class="form-cols">
+                      <div class="form-col form-full">
+                        <div class="form-controls">
+                          <input
+                            type="text"
+                            class="field"
+                            name="firma"
+                            id="firma"
+                            value=""
+                          />
+                        </div>
+                        <!-- /.form-controls -->
+                      </div>
+                      <!-- /.form-col -->
+                    </div>
+                    <!-- /.form-cols -->
+                  </div>
+                  <!-- /.form-row -->
+                  <div class="form-row">
+                    <label for="titel" class="form-label">직책</label>
+                    <div class="form-cols">
+                      <div class="form-col form-full">
+                        <div class="form-controls">
+                          <input
+                            type="text"
+                            class="field"
+                            name="titel"
+                            id="titel"
+                            value=""
+                          />
+                        </div>
+                        <!-- /.form-controls -->
+                      </div>
+                      <!-- /.form-col -->
+                    </div>
+                    <!-- /.form-cols -->
+                  </div>
+                  <!-- /.form-row -->
+
+                  <div class="form-spacer"></div>
+
+                  <div class="form-row">
+                    <label for="telefon" class="form-label">* 연락처</label>
+                    <div class="form-cols">
+                      <div class="form-col form-full">
+                        <div class="form-controls">
+                          <input
+                            type="text"
+                            class="field"
+                            name="telefon"
+                            id="telefon"
+                            required="required"
+                            value=""
+                          />
+                        </div>
+                        <!-- /.form-controls -->
+                      </div>
+                      <!-- /.form-col -->
+                    </div>
+                    <!-- /.form-cols -->
+                  </div>
+                  <!-- /.form-row -->
+
+                  <div class="form-row">
+                    <label for="email" class="form-label">* 이메일</label>
+                    <div class="form-cols">
+                      <div class="form-col form-full">
+                        <div class="form-controls">
+                          <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            required="required"
+                            class="field"
+                            value=""
+                          />
+                        </div>
+                        <!-- /.form-controls -->
+                      </div>
+                      <!-- /.form-col -->
+                    </div>
+                    <!-- /.form-cols -->
+                  </div>
+                  <!-- /.form-row -->
+
+                  <div class="form-spacer"></div>
+
+                  <div class="form-row">
+                    <label for="telefon" class="form-label">* 제목</label>
+                    <div class="form-cols">
+                      <div class="form-col form-full">
+                        <div class="form-controls">
+                          <input
+                            type="text"
+                            class="field"
+                            name="subject"
+                            id="subject"
+                            required="required"
+                            value=""
+                          />
+                        </div>
+                        <!-- /.form-controls -->
+                      </div>
+                      <!-- /.form-col -->
+                    </div>
+                    <!-- /.form-cols -->
+                  </div>
+                  <!-- /.form-row -->
+                  <div class="form-row">
+                    <label for="nachricht" class="form-label">* 내용</label>
+                    <div class="form-cols">
+                      <div class="form-col form-full">
+                        <div class="form-controls">
+                          <textarea
+                            class="textarea"
+                            name="nachricht"
+                            id="nachricht"
+                            required="required"
+                          ></textarea>
+                        </div>
+                        <!-- /.form-controls -->
+                      </div>
+                      <!-- /.form-col -->
+                    </div>
+                    <!-- /.form-cols -->
+                  </div>
+                  <!-- /.form-row -->
+
+                  <div class="form-row">
+                    <div class="form-cols">
+                      <div class="form-col form-full">
+                        <div class="form-controls checkbox">
+                          <label for="a_privacy" class="form-label"></label>
+                          <input
+                            type="checkbox"
+                            name="a_privacy"
+                            id="a_privacy"
+                          />
+                          <label for="a_privacy" class="form-after"
+                            ><span></span>
+                            <div class="checkbox-label">
+                              개인정보수집 및 이용에 동의합니다.
+                            </div></label
+                          >
+                        </div>
+                        <!-- /.form-controls -->
+                      </div>
+                      <!-- /.form-col -->
+                    </div>
+                    <!-- /.form-cols -->
+                  </div>
+                  <!-- /.form-row -->
+                  <div class="form-action">
+                    <div class="button">
+                      <button type="submit" class="btn blue" title="submit">
+                        submit
+                      </button>
+                    </div>
+                    <!-- /.button -->
+                  </div>
+                  <!-- /.form-action -->
+                </form>
+              </section>
+              <!-- /form -->
+            </div>
+            <!-- /.col -->
+          </div>
+          <!-- /.shell -->
+        </div>
+        <!-- /.row -->
+        <!-- /.row -->
       </div>
       <!-- /.content -->
       <footer>
@@ -203,6 +422,9 @@
                     <a href="./history.html" title="History">History</a>
                   </li>
                   <li>
+                    <a href="./store.html" title="Store">Store</a>
+                  </li>
+                  <li>
                     <a href="./contact.html" title="Contact">Contact</a>
                   </li>
                 </ul>
@@ -217,6 +439,14 @@
                 <ul>
                   <li>
                     <a href="./chenille.html" title="Chenille">Chenille</a>
+                  </li>
+                  <li>
+                    <a href="./chenille-passion.html" title="Passion"
+                      >Passion</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./chenille-pure.html" title="Pure">Pure</a>
                   </li>
                 </ul>
               </div>
@@ -307,8 +537,11 @@
     <!-- /.wrapper -->
 
     <!-- Vendor JS -->
-    <script src="./js/jquery-1.11.3.min.js"></script>
-    <script src="./js/slick.min.js"></script>
+    <script src="/js/jquery-1.11.3.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <script src="./js/jquery.easing.1.3.js"></script>
     <script src="./js/fancybox/jquery.fancybox.pack.js"></script>
     <script src="./js/jquery-ui.min.js"></script>

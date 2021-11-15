@@ -941,9 +941,14 @@ article.spacer {
 
 .content.philosophie .intro + .row + .row .widget.white {
   margin-top: 0;
+  height: 100%;
 }
 
 .intro img {
+  width: 100%;
+}
+
+.content.kontakt .intro + .row .col-3of4 {
   width: 100%;
 }
 
@@ -1045,6 +1050,14 @@ article.spacer {
 
   .col-1of3 .widget {
     margin-top: 30px;
+  }
+
+  .content.kontakt .checkbox-label {
+    display: inline;
+  }
+
+  .content.kontakt input[type="checkbox"] + label span {
+    margin: 0 4px 0 0;
   }
 }
 
@@ -1400,6 +1413,9 @@ figure {
   max-width: 806px;
   margin-top: 20px;
 }
+.content.store figure {
+  margin-top: 0px;
+}
 .row.white figure + figure,
 .row.white + .row figure + figure {
   margin-left: 16px;
@@ -1600,8 +1616,13 @@ figcaption .source {
   display: inline-block;
   margin-bottom: 20px;
   margin-top: 20px;
-  width: 620px;
+  width: 619px;
   vertical-align: top;
+}
+@supports (-ms-ime-align: auto) {
+  .big-tile {
+    width: 619px;
+  }
 }
 .big-tile + .big-tile {
   margin-left: 15px;
@@ -1679,6 +1700,9 @@ figcaption .source {
   width: 255px;
   height: 255px;
   position: relative;
+}
+.content.store .thumbnail {
+  margin-bottom: 0;
 }
 .thumbnail a {
   display: inline;
@@ -2111,7 +2135,7 @@ input[type="checkbox"] + label span {
   display: inline-block;
   width: 16px;
   height: 16px;
-  margin: -5px 4px 0 0;
+  margin: -1px 4px 0 0;
   padding-right: 0;
   float: none;
   vertical-align: middle;
