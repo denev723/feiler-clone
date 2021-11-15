@@ -2512,8 +2512,14 @@ input[type="checkbox"]:checked + label span {
     height: 100%;
   }
   .form-txt-area dd {
-    width: 100%;
+    width: 100% !important;
     height: 50%;
+  }
+  .form-txt-area > ul > li:nth-child(2) dd,
+  .form-txt-area > ul > li:nth-child(3) dd,
+  .form-txt-area > ul > li:nth-child(4) dd,
+  .form-txt-area > ul > li:nth-child(5) dd {
+    padding-left: 0;
   }
   .form-txt-area dd > ul {
     width: 100%;
