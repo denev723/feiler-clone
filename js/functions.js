@@ -79,11 +79,11 @@
     });
   });
 
-  var elHeight = $(
-    ".content .row:nth-child(3) > .shell > .col:nth-child(1)",
-  ).outerHeight();
+  // var elHeight = $(
+  //   ".content .row:nth-child(3) > .shell > .col:nth-child(1)",
+  // ).outerHeight();
 
-  $(".content .row:nth-child(3) > .shell > .col:nth-child(2)").outerHeight(
-    elHeight,
-  );
+  // $(".content .row:nth-child(3) > .shell > .col:nth-child(2)").outerHeight(
+  //   elHeight,
+  // );
 })(jQuery, window, document);

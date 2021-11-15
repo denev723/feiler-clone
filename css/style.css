@@ -2249,6 +2249,408 @@ input[type="checkbox"]:checked + label span {
   }
 }
 
+#form-wrap {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  background-color: #fff;
+}
+.form-txt-area {
+  max-width: 1040px;
+  margin: auto;
+}
+.form-txt-area > ul {
+  width: 100%;
+  height: auto;
+}
+.form-txt-area > ul > li {
+  display: inline-block;
+  width: 490px;
+  min-height: 53px;
+  margin-bottom: 6px;
+}
+.form-txt-area > ul > li:nth-child(1) {
+  width: 100%;
+  display: block;
+  margin-bottom: 0;
+}
+.form-txt-area > ul > li:nth-child(2),
+.form-txt-area > ul > li:nth-child(3) {
+  margin-top: 10px;
+}
+.form-txt-area > ul > li:nth-child(4) dd input {
+  width: 100%;
+}
+.form-txt-area > ul > li dd input {
+  background-color: #eee;
+}
+.form-txt-area > ul > li:nth-child(3),
+.form-txt-area > ul > li:nth-child(5) {
+  float: right;
+}
+.form-txt-area > ul > li:nth-child(1) dt,
+.form-txt-area > ul > li:nth-child(5) dt,
+.form-txt-area > ul > li:nth-child(6) dt,
+.form-txt-area > ul > li:last-child dt {
+  width: 78px;
+}
+.form-txt-area > ul > li:nth-child(6) {
+  width: 100%;
+}
+
+.form-txt-area > ul > li:nth-child(2) dd,
+.form-txt-area > ul > li:nth-child(3) dd,
+.form-txt-area > ul > li:nth-child(4) dd,
+.form-txt-area > ul > li:nth-child(5) dd {
+  padding-left: 38px;
+}
+
+.form-txt-area > ul > li:nth-child(1) dd,
+.form-txt-area > ul > li:nth-child(6) dd,
+.form-txt-area > ul > li:last-child dd {
+  width: 922px;
+}
+.form-txt-area > ul > li:last-child {
+  width: 100%;
+  height: auto;
+}
+.form-txt-area > ul > li:last-child input::placeholder {
+  margin-top: 50px;
+}
+.form-txt-area dt {
+  float: left;
+  width: 16%;
+  height: 100%;
+  line-height: 55px;
+  font-size: 17px;
+}
+.form-txt-area dt > label {
+  width: 100%;
+  height: 100%;
+}
+.form-txt-area dd {
+  float: right;
+  width: 84%;
+  height: 100% !important;
+}
+.form-txt-area dd > ul {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0;
+}
+.form-txt-area dd > ul > li {
+  float: left;
+  height: 100%;
+  line-height: 55px;
+  margin-right: 35px;
+  text-align: center;
+}
+
+.form-txt-area dd > input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  text-indent: 10px;
+  border-radius: 10px;
+  padding: 21px 0;
+}
+.form-txt-area dd > input:focus {
+  outline: none;
+}
+.form-btn-area {
+  max-width: 843px;
+  margin: auto;
+  padding: 0 0 130px;
+}
+.form-btn-area > .privacy {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+}
+.form-btn-area > .privacy > input[type="checkbox"] {
+  display: none;
+}
+.form-btn-area > .privacy > input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  border: 2px solid #ccc;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+.form-btn-area > .privacy > input[type="checkbox"] + label:before {
+  content: "\2714";
+  color: #ccc;
+}
+.form-txt-area li label:hover {
+  cursor: pointer;
+}
+.form-txt-area li input:hover {
+  cursor: text;
+}
+.form-btn-area > .privacy > input[type="checkbox"]:checked + label {
+  color: #333;
+}
+.form-btn-area > .privacy > input[type="checkbox"]:checked + label:before {
+  color: #ff7e00;
+  border: 2px solid #ff7e00;
+}
+.privacy label {
+  color: #ccc;
+}
+.page-support-technical .privacy span,
+.page-contact-Inquiry .privacy span {
+  display: inline-block;
+  border-bottom: 1px solid #333;
+}
+.privacy span > a {
+  display: block;
+  color: #333 !important;
+  width: 100%;
+  height: 100%;
+}
+.btn-wrap {
+  width: 300px;
+  height: 80px;
+  margin: auto;
+}
+#form-wrap .receipt {
+  width: 600px;
+}
+.btn-wrap > button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 80px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  border: 1px solid #222954;
+  border-radius: 50px;
+  background-color: #222954;
+}
+.btn-wrap > button:hover {
+  background-color: #1a2042;
+}
+.page-support-technical .content_body {
+  padding-bottom: 0;
+}
+.form-txt-area dd textarea {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 10px;
+  padding-top: 19px;
+  resize: none;
+  background-color: #eee;
+}
+.form-txt-area dd textarea:focus {
+  outline: 0;
+}
+
+/* page-contact-Inquiry */
+.page-contact-Inquiry .subvisual {
+  background-image: url(../images/part/legacy/business-main-bg.jpg);
+}
+
+.page-contact-Inquiry .subvisual_txt_wrap .subvisual_txt {
+  width: 645px;
+  height: 310px;
+  background-image: url(../images/part/legacy/business-main-txt.png);
+}
+.page-contact-Inquiry .content_body .title {
+  letter-spacing: -3px;
+}
+
+@media screen and (max-width: 1239px) {
+  #form-wrap {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+  }
+  .form-txt-area {
+    width: 100%;
+    margin: auto;
+    padding: 0 20px;
+  }
+  .form-txt-area > ul {
+    width: 100%;
+    height: auto;
+  }
+  .form-txt-area > ul > li {
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+  }
+  .form-txt-area > ul > li:last-child {
+    width: 100%;
+    height: auto;
+  }
+  .form-txt-area > ul > li:last-child dt {
+    height: 55px;
+  }
+  .form-txt-area > ul > li:last-child dd {
+    height: 86%;
+  }
+  .form-txt-area > ul > li:last-child input::placeholder {
+    margin-top: 50px;
+  }
+  .form-txt-area dt {
+    width: 100%;
+    height: 50%;
+    line-height: 55px;
+    font-size: 17px;
+  }
+  .form-txt-area dt > label {
+    width: 100%;
+    height: 100%;
+  }
+  .form-txt-area dd {
+    width: 100%;
+    height: 50%;
+  }
+  .form-txt-area dd > ul {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0;
+  }
+  .form-txt-area dd > ul > li {
+    float: left;
+    height: 100%;
+    line-height: 55px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  .form-txt-area dd > ul > li > input[type="radio"] {
+    display: none;
+  }
+  .form-txt-area dd > ul > li > input[type="radio"] + label:before {
+    content: " ";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    margin-right: 5px;
+    border: 2px solid #ccc;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
+  .form-txt-area dd > ul > li > input[type="radio"]:checked + label:before {
+    content: "\2714";
+    color: #ff7e00;
+    border-color: #ff7e00;
+  }
+  .form-txt-area dd > input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    text-indent: 10px;
+    border-radius: 10px;
+    padding: 21px 0;
+  }
+  .form-txt-area dd > input:focus {
+    outline: none;
+  }
+  .form-btn-area {
+    max-width: 895px;
+    margin: auto;
+    padding: 0 20px 130px;
+  }
+  .form-btn-area > .privacy {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+  .form-btn-area > .privacy > input[type="checkbox"] {
+    display: none;
+  }
+  .form-btn-area > .privacy > input[type="checkbox"]:checked + label {
+    color: #333;
+  }
+  .form-btn-area > .privacy > input[type="checkbox"] + label:before {
+    content: " ";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    margin-right: 5px;
+    text-align: center;
+    border: 2px solid #ccc;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
+  .form-btn-area > .privacy > input[type="checkbox"] + label:before {
+    content: "\2714";
+    color: #ccc;
+  }
+  .form-btn-area > .privacy > input[type="checkbox"]:checked + label:before {
+    color: #ff7e00;
+    border: 2px solid #ff7e00;
+  }
+  .privacy label {
+    color: #ccc;
+  }
+  .page-support-technical .privacy span,
+  .page-contact-Inquiry .privacy span {
+    display: inline-block;
+    border-bottom: 1px solid #333;
+  }
+  .privacy span > a {
+    display: block;
+    color: #333;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-wrap {
+    width: 300px;
+    height: 80px;
+    margin: auto;
+  }
+  .btn-wrap > button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid #222954;
+    border-radius: 50px;
+    background-color: #222954;
+  }
+  .btn-wrap > button:hover {
+    background-color: #1a2042;
+  }
+  .page-support-technical .content_body {
+    padding-bottom: 0;
+  }
+  .form-txt-area dd textarea {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 10px;
+    padding: 19px 12px 0;
+    resize: none;
+  }
+  .form-txt-area dd textarea:focus {
+    outline: 0;
+  }
+  input:hover {
+    cursor: pointer;
+  }
+  label:hover {
+    cursor: pointer;
+  }
+}
+
 /* ------------------------------------------------------------ *\
 	Datepicker
 \* ------------------------------------------------------------ */
